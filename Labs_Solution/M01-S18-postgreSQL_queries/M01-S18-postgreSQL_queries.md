@@ -50,7 +50,7 @@ WHERE
 GROUP BY 
 	prime_genre
 ORDER BY 
-	COUNT(prime_genre) DESC
+	TOTAL_RATING_COUNT DESC
 LIMIT 10;
 ```
 
@@ -60,14 +60,14 @@ LIMIT 10;
 ```sql
 SELECT 
     prime_genre,
-    COUNT(prime_genre)
+    COUNT(ID) AS COUNT_APP
 FROM 
     apple_table
 GROUP BY 
     prime_genre
 ORDER BY 
-    COUNT(prime_genre) DESC
-LIMIT 1;
+    COUNT_APP DESC
+LIMIT 5;
 ```
 
 
@@ -77,14 +77,14 @@ LIMIT 1;
 ```sql
 SELECT 
     prime_genre,
-    COUNT(prime_genre)
+    COUNT(ID) AS COUNT_APP
 FROM 
     apple_table
 GROUP BY 
     prime_genre
 ORDER BY 
-    COUNT(prime_genre) 
-LIMIT 1;
+    COUNT_APP
+LIMIT 5;
 ```
 
 **5. Find the top 10 apps most rated.**
@@ -150,7 +150,7 @@ LIMIT 5;
 ```
 
 **9. Find the total number of games available in more than 1 language.**
-- Use `track_name` and `langnum` columns.
+- Use `track_name`, `prime_genre` and `langnum` columns.
 
 ```sql
 SELECT
@@ -158,7 +158,8 @@ SELECT
 FROM
     apple_table
 WHERE
-    langnum > 1;
+	prime_genre = 'Games' AND
+	langnum > 1;
 ```
 
 **10. Find the number of free vs paid apps.**
@@ -166,6 +167,7 @@ WHERE
 - You can use `CASE WHEN` to filter free or paid apps.
 
 ```sql
+-- METHOD 1
 SELECT 
 	COUNT(CASE 
 			WHEN price = 0 THEN 'free'  
@@ -175,6 +177,19 @@ SELECT
 		  END) as "free_app"
 FROM 
 	apple_table;
+
+-- METHOD 2
+SELECT 
+	CASE 
+		WHEN price > 0 THEN 'paid' 
+		WHEN price = 0 THEN 'free' 
+	END AS is_paid,
+	COUNT(id)
+FROM
+	apple_table
+GROUP BY
+	is_paid
+
 ```
 
 
