@@ -1,4 +1,4 @@
-# Lab | PostgreSQL Database Creation
+# Lab | SQL Database Creation
 
 ## Introduction
 As a data expert you work at a car dealership company which sells new cars of various brands and models. 
