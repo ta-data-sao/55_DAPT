@@ -1,6 +1,6 @@
-# Lab | PostgreSQL queries
+# Lab | SQL queries
 
-- Open the PgAdmin server from PostgreSQL.
+- Open SQL.
 - Create a database called **applestore**  and a table called **apple_table**. Use code from `applesotre_DATABASE.sql` to create table and insert data. 
 
 Here is the description of columns for your knowledge:
