@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab you will practice mySQL subqueries, temporary tables, and action queries.  
+In this lab you will practice mySQL subqueries and temporary tables.  
 - Use the same database from the lab `mySQL_select`. If you are starting now, use the code from `publications_database.sql` to create your databese, tables and insert data. 
 
 **1. Most profiting authors**
