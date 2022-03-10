@@ -171,10 +171,10 @@ WHERE
 SELECT 
 	COUNT(CASE 
 			WHEN price = 0 THEN 'free'  
-		  END) as "paid_app",
+		  END) as "free_app",
 	COUNT(CASE 
 			WHEN price > 0 THEN 'paid'  
-		  END) as "free_app"
+		  END) as "paid_app"
 FROM 
 	apple_table;
 
@@ -202,15 +202,14 @@ SELECT
 	prime_genre,
 	COUNT(CASE 
 			WHEN price = 0 THEN 'free'  
-		  END) as "paid_app",
+		  END) as paid_app,
 	COUNT(CASE 
 			WHEN price > 0 THEN 'paid'  
-		  END) as "free_app"
+		  END) as free_app
 FROM 
 	apple_table
 GROUP BY
 	prime_genre
 ORDER BY
-	"paid_app" DESC, 
-    "free_app" DESC;
+	paid_app DESC
 ```
