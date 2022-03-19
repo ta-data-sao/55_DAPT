@@ -9,9 +9,9 @@ In this lab, we will practice performing business intelligence analysis on a com
 ## Before Starting
 
 1 - Import the dataset and adjust the `Text File Properties` to  this configuration:
-![Config_1](..\images\config_1.png)
+![Config_1](./images/config_1.png)
 
-![Config_2](..\images\config_2.png)
+![Config_2](./images/config_2.png)
 
 2 - We would like you to spend 10 minutes to study the following resources on what is a *measure* versus *dimension*?
 
@@ -49,12 +49,12 @@ To complete this lab, follow each of the steps below.
     - Displays a number of records label on each segment of the stacked bars.
     - Your visualization should look like this: 
 
-        ![Payment Method vs Paperless Billing](..\images\payment-vs-paperless-billing.png)
+        ![Payment Method vs Paperless Billing](./images/payment-vs-paperless-billing.png)
 
     - From this visualization, we can see that most customers who have paperless billing also pay via electronic payment methods (with electronic check being the most popular), while payment via mailed check is the most popular payment option for customers who do not have paperless billing.
     - Bonus: You can also blend in the Contract dimension to get a more granular view of which billing options are most popular among customers on Month-to-Month, One Year, and Two Year service contracts. How? Your visualization should look like this:
 
-        ![Payment Method vs Paperless Billing by Contract Type](..\images\payment-vs-paperless-billing-by-contract-type.png)
+        ![Payment Method vs Paperless Billing by Contract Type](./images/payment-vs-paperless-billing-by-contract-type.png)
 
 
 5. Now that we have looked at customer distribution from a variety of perspectives, let's shift our focus to some of the other measures in our data set. Specifically, let's take a look at how pricing (Monthly Charge) changes with longevity (Tenure). 
@@ -63,7 +63,7 @@ To complete this lab, follow each of the steps below.
         - Shows Average Monthly Charges as labels on the data points of the line chart.
     - Your line chart should look like below:
 
-        ![Avg. Monthly Charge vs Tenure](..\images\monthly-charge-vs-tenure.png)
+        ![Avg. Monthly Charge vs Tenure](./images/monthly-charge-vs-tenure.png)
 
     - We can see that the average monthly charge across all customers starts out at $41.42, increases sharply in the first three months to $57.21, and then continues to increase gradually to eventually reach the $80 price range.
 6. We can observe the relationship between Monthly Charges and Tenure from a variety of perspectives to gain insight into how pricing changes for different subsets of customers.
@@ -71,7 +71,7 @@ To complete this lab, follow each of the steps below.
         1. Create a duplicate of the previous Monthly Charge by Tenure visualization.
         1. Add the Gender dimension to the Marks section so that we have two lines now on the same chart - one for men and one for women. Your new chart should look like below:
 
-            ![Avg. Monthly Charge vs Tenure by Gender](..\images\monthly-charge-vs-tenure-by-gender.png)
+            ![Avg. Monthly Charge vs Tenure by Gender](./images/monthly-charge-vs-tenure-by-gender.png)
 
     1. One of the interesting insights we can see from this perspective is that the company charges new women customers twice as much on average than new male customers. However, we see that by the third month, the price level for men is back up to where it is for women. 
     1. How to interpret the insight above? Well, one possibility is that the company regularly runs low-cost 3-month introductory promotions targeted at men to try their services. Do you have other interpretation?
@@ -80,11 +80,11 @@ To complete this lab, follow each of the steps below.
 7. The pricing charts we have looked at thus far makes it seem like the company is providing cheaper services to some customers based on demographics. However, we should also take into consideration that pricing is typically heavily dependent on services purchased (e.g. Multiple Lines and Internet Service. It may just be that seniors purchase more expensive services (i.e. multiple lines and type of Internet service) on average than younger customers. To test our theory, let's look at how pricing varies across services.
     - Create another duplicate of the original Monthly Charge by Tenure visualization. Add the relevant dimensions to visualize how average monthly charge varies for seniors vs non-seniors when the customer signed up for multiple lines. Your end product should look like this:
 
-        ![Senior Montly Charge by Multiple Lines](..\images\senior-monthly-charge-by-multiple-line.png)
+        ![Senior Montly Charge by Multiple Lines](./images/senior-monthly-charge-by-multiple-line.png)
 
     - Create another duplicate of the original Monthly Charge by Tenure visualization. Add the relevant dimensions to visualize how average monthly charge varies for seniors vs non-seniors when the customer signed up for different Internet Service. Your end product should look like this:
 
-        ![Senior Montly Charge by Internet Service](..\images\senior-monthly-charge-by-internet-service.png)
+        ![Senior Montly Charge by Internet Service](./images/senior-monthly-charge-by-internet-service.png)
 
     - The charts above suggest the company charges seniors significantly more than non-seniors for those who sign up for single-line phone service. The company charges seniors slightly more than non-seniors for those who sign up for multiple-line phone service. There is no obvious charge difference between senior and non-senior when they sign up differen types of Internet Service.
 8. Instead of using line charts to visualize pricing for different demongraphics vs services separately, we can also visualize both demographics *and* services at the same time using *highlight table*.
@@ -97,7 +97,7 @@ To complete this lab, follow each of the steps below.
     1. Select Analysis > Percentage Of > Column in the menu. This displays the percentage instead of totals.
     1. Your visualization should look like:
 
-        ![Senior vs Internet Service](..\images\senior-vs-internet-service.png)
+        ![Senior vs Internet Service](./images/senior-vs-internet-service.png)
 
     - From this visualization, we can see that the proportion of customers that have fiber optic internet (the highest price service) is higher among seniors than it is among non-seniors. This is likely the cause for the price difference among those two groups. Seniors indeed tend to sign up for more expensive services.
 10. The final perspective we will analyze this data set from is the number of customers that churn by demographic and service combination.
