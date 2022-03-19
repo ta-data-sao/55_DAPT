@@ -4,18 +4,17 @@
 
 ## Introduction
 
-In this lab, we will practice loading data into Tableau, inspecting and modifying data types, and creating tabular views with metrics based on the information contained in the data set. We will be working with a [liquor store sales data set](https://docs.google.com/spreadsheets/d/1pQ2VFsuuwLqBstYYTY3fcZY32WLigw3Pzxnikkce6IA/edit?usp=sharing) hosted in Google Sheets.
-
+In this lab, we will practice loading data into Tableau, inspecting and modifying data types, and creating tabular views with metrics based on the information contained in the data set. We will be working with a liquor store sales data set.
 If you get stuck on any of the tasks in this lab, you can reference the excellent training video resources provided on the [Tableau website](https://www.tableau.com/learn/training). We have also referenced specific articles on topics such as binning variables and creating aliases that should be helpful in completing this lab.
 
 ## Getting Started
 
 To complete this lab, follow each of the steps below.
 
-1. Open the [data set](https://docs.google.com/spreadsheets/d/1pQ2VFsuuwLqBstYYTY3fcZY32WLigw3Pzxnikkce6IA/edit?usp=sharing) in a browser.
-2. Download the dataset in CSV format.
-3. Launch the Tableau Public application.
-4. Import the dataset into Tableau through the `Text File` option.
+1. Download the [data set](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ta-data-sao/55_DAPT/tree/master/Labs/M02-L01-introduction_to_bi_and_tableau).
+2. Launch the Tableau Public application.
+3. Import the dataset into Tableau through the `Text File` option.
+4. Use ; as field separator.
 5. Once the data set has been imported, change the data type for the `Year` field to string.
 6. Create a new field called Quarter by [binning](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_bins.htm) the month field using a bin size of 4.
 7. Create a new worksheet, drag the newly-created Quarter field into the Rows section, and drag the Number of Records measure to the center of the view. You will notice that the quarters are currently named labeled 0, 4, 8, 12. [Rename](https://onlinehelp.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm) them more intuitively by right-clicking on the Quarter dimension, selecting Aliases and changing their names to Q1, Q2, Q3, and Q4 respectively.
