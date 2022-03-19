@@ -30,7 +30,7 @@ To complete this lab, follow each of the steps below.
     1. Convert the Senior Citizen measure to a dimension by right clicking on it and selecting *Convert to Dimension*. 
         - Why do we convert this column from measure to dimension? From the article resource you read, measures contain numeric, quantitative values that Tableau can automatically aggregate, calculate average and median, etc. But dimensions contain qualitative values that are typically categorical where Tableau can perform actions like count, groupby, etc.
         - If you look into the values in the `Senior Citizen` column, you'll see `0` and `1` instead of `Yes` and `No`. That is why Tableau thought this column is a measure. But we human beings are smarter and know in this context `0` means `No` and `1` means `Yes`. Therefore it is actually categorical data. It makes total sense to convert it to a dimension so that we can group by it.
-    1. Drag and drop the new Senior Citizen dimension into the Rows area (right next to Gender).
+    1. Drag and drop the new Senior Citizen dimension into the Rows area (right next to Dependents).
     1. From the Analysis menu, select *Totals > Show Row Grand Totals* and then *Totals > Show Column Grand Totals*.
     1. From the statistical summary, We should be able to obtain 3 insights: 
         - The majority of the company's customers tend to be non-senior individuals.
