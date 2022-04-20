@@ -26,7 +26,7 @@ To complete this lab, follow each of the steps below.
     1. Create a new worksheet and drop the `churn.csv (Count)` measure into the center. You should see that the total customer count is 7,043.
     1. Drag and drop the Gender dimension into the Rows area and the Partners dimension into the Columns area.
     1. Click on the Show Me menu at the top right of the screen and select the highlight table visualization so that we can see the density of records as we continue to build our view.
-    1. Add the Dependents dimension to the Columns area (next to Partners).
+    1. Add the Dependents dimension to the Rows area (next to Partners).
     1. Convert the Senior Citizen measure to a dimension by right clicking on it and selecting *Convert to Dimension*. 
         - Why do we convert this column from measure to dimension? From the article resource you read, measures contain numeric, quantitative values that Tableau can automatically aggregate, calculate average and median, etc. But dimensions contain qualitative values that are typically categorical where Tableau can perform actions like count, groupby, etc.
         - If you look into the values in the `Senior Citizen` column, you'll see `0` and `1` instead of `Yes` and `No`. That is why Tableau thought this column is a measure. But we human beings are smarter and know in this context `0` means `No` and `1` means `Yes`. Therefore it is actually categorical data. It makes total sense to convert it to a dimension so that we can group by it.
