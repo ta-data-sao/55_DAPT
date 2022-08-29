@@ -45,7 +45,7 @@ Using the temporary table from Step 1, write a query to obtain the following out
 
 - AuthorID
 - TitleID
-- SUM of royalty_per_sale
+- SUM of royalty_per_sale AS royalty_per_sale_and_author
 - advance_per_title_and_author
   
  Hint: To use the *SUM* you should *GROUP BY* `AuthorID` and `TitleID`.
