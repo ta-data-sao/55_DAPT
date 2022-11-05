@@ -1,7 +1,9 @@
-CREATE DATABASE lab_apple;
+DROP SCHEMA IF EXISTS lab_apple;
+CREATE SCHEMA lab_apple;
+
+USE lab_apple;
 
 DROP TABLE IF EXISTS apple_table;
-
 CREATE TABLE apple_table(
    id               INTEGER
   ,track_name       VARCHAR(235)  
@@ -20,8 +22,6 @@ CREATE TABLE apple_table(
   ,langnum          INTEGER   
   ,vpp_lic          BIGINT   
 );
-
-
 
 INSERT INTO apple_table(id,track_name,size_bytes,currency,price,rating_count_tot,rating_count_ver,user_rating,user_rating_ver,ver,cont_rating,prime_genre,sup_devicesnum,ipadSc_urlsnum,langnum,vpp_lic) VALUES
 (281656475,'PAC-MAN Premium',100788224,'USD',3.99,21292,26,4.0,4.5,'6.3.5','4+','Games',38,5,10,1),
