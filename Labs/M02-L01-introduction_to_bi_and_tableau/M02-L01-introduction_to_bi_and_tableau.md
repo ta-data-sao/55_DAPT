@@ -32,7 +32,7 @@ To the viz! In the following task, try exploring the available graph models in t
     - Total `Retail Sales` (columns) by `Year`/`Month` and `Item Type` (colour).
     - Average `Retail Sales` (columns) by `Year`/`Month` (rows).
     - Average `Retail Sales` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
-    - (If you want to practice, repeat the previous tasks, but change `Retail Sales` to `Retail Transfers` and/or to `Warehouse Sales`.)
+    - (If you want to practice, repeat the previous tasks, but change `Retail Sales` to `Retail Transfers` and/or to `Warehouse Sales`. You can also try adding information into other `Marks` - such as `Size`, `Label`, `Detail` and `Tooltip`.)
 7. Save your work to Tableau Public, ensure that your workbook is viewable. It might take several minutes for this workbook to save to Tableau Public due to the number of records in the data set.
 
 ## Resources
