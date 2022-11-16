@@ -19,9 +19,9 @@ To complete this lab, follow each of the steps below.
     - Change the [data type](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles_datatypes.htm) of `Year` and `Month` fields to date.
     - Then, create a [custom date](https://help.tableau.com/current/pro/desktop/en-us/dates_custom.htm) field for both `Year` and `Month` fields (one at a time). Set the `detail` field to Years and Months, respectively, and, since we want the new fields to be discrete, select `Date Part` in both cases.
     - Now, create a new field called `Quarter` by [grouping](https://help.tableau.com/current/pro/desktop/en-us/sortgroup_groups_creating.htm) the newly-created month field (it's probably called `Month (Months)`). Name the groups as Q1, Q2, Q3 and Q4, according to the quarters.
-    - Finally, create a [hierarchy](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm) called `Date`, and arrange the three new fields properly into it.
+    - Optional: create a [hierarchy](https://help.tableau.com/current/pro/desktop/en-us/qs_hierarchies.htm) called `Date`, and arrange the three new fields properly into it.
 
-To the viz! In the following task, try exploring the available graph models in the `Show Me` section! (If necessary, fix the order of fields!)
+Finally, to the viz! In the following task, try exploring the available graph models in the `Show Me` section! (If necessary, fix the order of fields!)
 
 6. Create worksheets with views for each of the following metrics:
     - Total `Retail Sales` (columns) by `Year`/`Quarter` (rows).
