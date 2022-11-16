@@ -25,17 +25,14 @@ To the viz! In the following task, try exploring the available graph models in t
 
 6. Create worksheets with views for each of the following metrics:
     - Total `Retail Sales` (columns) by `Year`/`Quarter` (rows).
+    - Total `Retail Sales` (columns) by `Year`/`Quarter` (rows) and `Item Type` (colour).
     - Average `Retail Sales` (columns) by `Year`/`Quarter` (rows).
-    - Total `Retail Sales` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
+    - Average `Retail Sales` (columns) by `Year`/`Quarter` (rows) and `Item Type` (colour).
+    - Total `Retail Sales` (columns) by `Year`/`Month`.
+    - Total `Retail Sales` (columns) by `Year`/`Month` and `Item Type` (colour).
+    - Average `Retail Sales` (columns) by `Year`/`Month` (rows).
     - Average `Retail Sales` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
-    - Total `Retail Transfers` (columns) by `Year`/`Quarter` (rows).
-    - Average `Retail Transfers` (columns) by `Year`/`Quarter` (rows).
-    - Total `Retail Transfers` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
-    - Average `Retail Transfers` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
-    - Total `Warehouse Sales` (columns) by `Year`/`Quarter` (rows).
-    - Average `Warehouse Sales` (columns) by `Year`/`Quarter` (rows).
-    - Total `Warehouse Sales` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
-    - Average `Warehouse Sales` (columns) by `Year`/`Month` (rows) and `Item Type` (colour).
+    - (If you want to practice, repeat the previous tasks, but change `Retail Sales` to `Retail Transfers` and/or to `Warehouse Sales`.)
 7. Save your work to Tableau Public, ensure that your workbook is viewable. It might take several minutes for this workbook to save to Tableau Public due to the number of records in the data set.
 
 ## Resources
