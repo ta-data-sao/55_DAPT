@@ -1,31 +1,33 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# Lab | Machine Learning & AI World
-Machine Learning now is one of the trending topics if you talk aboyt technology. Everyday a lot of material about this topic arrives to the media, not only news about new discovers but also a lot of tutorials and articles about people working on this.
+# Lab | Aprendizado de Máquina & Inteligência Artificial
 
-The objectives of this lab are:
-* Get to introduced into this world through the latest most important news we have had in the last years.
-* Guide you to do a deeper research to understand them better.
+Aprendizado de Máquina é atualmente um dos assuntos tendência quando falamos de tecnologia. Todos os dias, muitos materiais sobre esse tópico chegam à mídia, trazendo não somente novas descobertas, mas também muitos tutoriais e artigos sobre pessoas trabalhando com isso.
 
-So you will be asked to read a piece of news and then share it with your partners. This way, when we finish sharing, you will have a light idea of the most important events but also you will be able to dig into one specific better.
+Os objetivos desse lab são:
+* Introduzir você a esse mundo através das notícias mais importantes que tivemos nos últimos anos.
+* Guiar você a uma pesquisa mais profunda, para entendê-lo melhor.
 
-## How we will do it?
+Então, você deve ler alguma notícia e compartilhá-la com os colegas. Desta forma, você terá a oportunidade de se aprofundar em alguma evento específico, mas também uma breve noção das notícias mais importantes.
 
-So let's start digging a litle bit. Imagine you open your today's AI&ML journal and you see a very interesting new. You read it but that is not enough. You want to understand:
-* If it is so important as the title says (is it really a big step?) or you think it is more important than the title let's suggests.
-* Which part of ML or AI is used and how is it related to ML or AI.
-* What did they do to take the data.
-* Which data did they use.
-* How did they do to build the model. Which type of model is?
-* Do you know any other project that applies the same techniques? Could you use something for another use case?
-* Do you find any ethical implications? Collateral effects?
-* Do you know any news related?
+## Como faremos isso?
 
-So you need to look for more information. Maybe the paper the scientists published, other articles, some information about the techniques, ...
+Vamos começar cavucando um pouco. Suponha que você abriu seu periódico sobre inteligência artificial (AI) e aprendizado de máquina (ML) e viu uma notícia muito interessante. Você lê a notícia, mas quer ir mais a fundo. Você quer entender:
+* Se é tão relevante quanto o título sugeria (é realmente um grande avanço?).
+* Como está relacionado a ML ou AI.
+* Como os dados são adquiridos.
+* Que dados são utilizados.
+* Como o modelo foi criado (que tipo de modelo é?).
+* Você conhece algum outro projeto que aplique as mesmas técnicas?
+* Você poderia agregar alguma informação a outro projeto?
+* Há implicações éticas? Efeitos colaterais?
+* Você se lembra de alguma outra notícia relacionada?
 
-Let's start! You will be assigned to an article and a day when you will have 5 minutes to share your research with your colleagues and then 5 minutes to discuss a little bit. Feel free to present your conclusions in the way you prefer.
+Então você precisa buscar mais informação. Talvez o material publicado pelos cientistas, outros artigos, alguma informação sobre as técnicas...
 
-## News 
+Vamos começar! Aqui estão algumas sugestões de notícias (mas você pode buscar qualquer outra que ache interessante). Você terá 5 minutos para compartilhar sua pesquisa com os colegas - fique a vontade para apresentar suas conclusões como preferir!
+
+## Notícias
 1. [AlphaGO](https://www.blog.google/technology/ai/alphago-machine-learning-game-go/)
 2. [Google Autonomous Car](https://www.iflscience.com/technology/google-has-developed-self-driving-car/)
 3. [Fb Face recognition](https://gizmodo.com/facebooks-new-face-recognition-features-what-we-do-an-1823359911)
